@@ -17,13 +17,14 @@ class Customers extends Component {
     
     render() {
         return (
-            <div>
+            <div className="center3">
      <center><h2>Egen API med JS Express</h2></center>
-      <ul>
+     <br></br>
+     <center> <ul>
             {this.state.customers.map(customer=>
                 <li key={customer.id}>{customer.firstName} {customer.lastName}</li>
                 )}
-      </ul>
+      </ul></center>
     </div>
   );
         

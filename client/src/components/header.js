@@ -1,18 +1,19 @@
 import React from 'react'
 function Header() {
 return(
-    <div className="container center"> 
-    
-  <a href="/Hem">Hem</a>
+    <span className="container center2"> 
+    {/* Länkar till alla componenter */}
   <div>
+    <a href="/Hem">Hem</a>
+    
     <a href="/customers">Egen API</a>
-    <br></br>
+    
     <a href="/ProjectApi">Project Api</a>
-    <br></br>
+    
     <a href="/AxiosApi">Axios Api</a>
 
   </div>
-</div>
+</span>
 )
 }
 

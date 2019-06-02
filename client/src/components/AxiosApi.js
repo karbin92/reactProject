@@ -10,7 +10,7 @@ class AxiosImages extends Component {
         }
       }
       componentDidMount() {
-        axios.get('https://dog.ceo/api/breeds/image/random')
+        axios.get('https://dog.ceo/api/breeds/image/random')  /* Ett Axios API på hundar */
         .then(response => {
           this.setState({ imageURL: response.data.message });
         })
