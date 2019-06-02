@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
 return(
-    <div className="container"> 
-<center><h2>Välkomstsida</h2></center>
+    <div> 
+    <h1 className="center3">Välkomstsida</h1>
   </div>
 
 )

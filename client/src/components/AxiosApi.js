@@ -23,9 +23,9 @@ class AxiosImages extends Component {
         const { imageURL } = this.state;
         return (
             
-            <div className="left">
+            <div className="center">
                 <center><h2>API med Axios</h2></center>
-          <img src={imageURL} />
+          <img src={imageURL} alt="hundar" />
           <br></br>
           <a href="/AxiosApi">Ny hund</a>
           </div>

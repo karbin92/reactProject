@@ -3,8 +3,8 @@ import React from 'react'
     const Message = ({ Message }) => {
       return (
         <div>
-          <center><h2>Meddelandeservice Grupp 5</h2></center>
-          {Message.map((Message) => (
+        <h1 className="center3">Meddelandeservice Grupp 5</h1>
+        {Message.map((Message) => (
             <div>
               <div className="card-body">
               <p class="service-card-description">From : {Message.SendingUserId}</p>

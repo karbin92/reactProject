@@ -17,7 +17,7 @@ class Customers extends Component {
     
     render() {
         return (
-            <div className="center3">
+            <span className="center">
      <center><h2>Egen API med JS Express</h2></center>
      <br></br>
      <center> <ul>
@@ -25,7 +25,7 @@ class Customers extends Component {
                 <li key={customer.id}>{customer.firstName} {customer.lastName}</li>
                 )}
       </ul></center>
-    </div>
+    </span>
   );
         
 }
