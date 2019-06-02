@@ -26,7 +26,10 @@ class AxiosImages extends Component {
             <div className="left">
                 <center><h2>API med Axios</h2></center>
           <img src={imageURL} />
+          <br></br>
+          <a href="/AxiosApi">Ny hund</a>
           </div>
+          
         );
       }
   }
