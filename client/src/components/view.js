@@ -5,7 +5,7 @@ import Hem from './Hem'
 import AxiosApi from './AxiosApi'
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 class View extends Component {
-
+/* Här plockar vi in allt vi vill visa i "hem-vyn" istället för att allt presenteras på en gång. */
     
     render() {
         return (

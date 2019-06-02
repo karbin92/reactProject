@@ -1,5 +1,5 @@
 import React from 'react'
-
+/* Plockar in servicen från grupp 5, eftersom "kund" aldrig har skrivit något så ser vi bara svaret från säljaren i kommentarsfältet, dessutom finns bara "ID" som namn i databasen. Till alla element finns även CSS */
     const Message = ({ Message }) => {
       return (
         <div>
