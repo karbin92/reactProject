@@ -5,9 +5,13 @@
   "main": "server.js",
   "homepage": "https://karbinportal.com",
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
+=======
+    "homepage":"https://karbin92.github.io/reactProject",
+>>>>>>> 27dd762b0ff094fcf80605e8021947dc5910496f
     "client-install": "cd client && npm install",
     "start": "node server.js",
     "server": "nodemon server.js",
